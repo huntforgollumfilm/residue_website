@@ -1,0 +1,392 @@
+/* CSS for Human Residue
+Created January 2007 
+Alex Goluszko - www.alex-goluszko.com*/
+
+	body,
+	html {
+		margin:0;
+		padding:0;
+		background-color: #000;
+		color: #aea9a1;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		font-size: 100%;}
+		
+	body {
+		min-width:1025px;}
+		
+	#wrap {
+		background: #000 url(images/wrap-bg.gif) repeat-y;
+		border: 1px solid black;
+		margin:0 auto;
+		width:1025px;}
+
+	#header {
+		}
+		
+	#left {
+		float:left;
+		width:140px;		
+		padding: 0 0 0 105px;
+		min-height: 100%;
+		height: 100%;}
+		
+	#main {
+		float: right;
+		width: 660px;
+		padding: 0 100px 0 0;}
+
+	#footer {
+		clear: both;
+		height: 76px;
+		background: url(images/footer-bg.gif) bottom center no-repeat;
+		padding: 10px 180px 0 275px}
+
+/* INSIDE DIVs */
+
+	#updates-featured {
+		background: #10100C url(images/updates-bg.gif) bottom repeat-x;
+		float: left;
+		width: 260px;
+		padding: 0px 15px 0 15px}
+
+	#right {
+		width: 350px;
+		float: right;}
+	
+	.generic {
+		background: #0c1112 url(images/right-bg.jpg) right bottom repeat-x;
+		padding: 0px 15px 0 15px;
+		margin: 0 0 15px 0;}	
+
+	.generic2 {
+		background: #10100C url(images/updates-bg.gif) bottom repeat-x;
+		padding: 0px 15px 0 15px;
+		margin: 0 0 15px 0;}	
+
+	.updates-right {
+		background: url(images/updates-bg2.gif) repeat-y;
+		padding: 0px 15px 0 15px;
+		margin: 0 0 15px 0;}
+
+	div.generic hr, div.generic2 hr {display: block; clear: left; margin: -0.66em 0;
+	  visibility: hidden;}
+
+/* ELEMENTS */
+	
+	a { color: #fff;}
+	
+	li, ul {
+		margin: 0; padding: 0}
+	
+	li { list-style: none; font-size: 80%;}
+	
+	h1 {
+		background: url(images/header-bg.jpg) no-repeat center;
+		text-indent: -9999px;
+		height: 5em;}
+
+	h1 a {
+		display: block}	
+		
+	h2 {
+		color: #798583;
+		font-size: 1.3em;
+		text-transform: uppercase;
+		margin-bottom: 1em}
+	
+	h3, h5 {
+		margin: 0 -15px 0 -15px;
+		padding: 0 15px 0 15px;}
+			
+	h3 { 
+		background: url(images/h3-bg.gif) top repeat-x;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		vertical-align:middle;
+		line-height: 35px;
+		margin-bottom: 15px}
+
+	h3.darker { 
+		background: url(images/h3-bg2.gif) top repeat-x;}
+
+	h4 {
+		font-family: "Book Antiqua", Times New Roman, serif;
+		font-size: 1.1em;
+		color: #BDBEC2;
+		margin-top: 1em;}
+		
+	h4 span {
+		color: #8a8b8f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		display: block}
+
+	h5 {
+		background: url(images/h5-bg.gif) bottom repeat-x;
+		color: #9f9c5f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		text-align: right;
+		vertical-align:middle;
+		line-height: 25px;}
+
+	h5.darker2 {
+		background: url(images/h5-bg2.gif) bottom repeat-x;}
+		
+	h5 a {
+		background: url(images/arrow1.gif) no-repeat left;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #7D8E8F;
+		padding: 0 0 0 10px}
+
+	h5 a:hover {
+		color: #BDBEC2}		
+				
+	h6 {
+		background: url(images/h6-bg.gif) bottom repeat-x;
+		color: #8a8b8f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		font-size: 0.7em;
+		line-height: 25px;
+		text-transform: uppercase;
+		margin: 0 0 5px -5px;
+		padding: 0 0 0 5px}
+
+	p {
+		text-align: justify;
+		font-size: 80%;}
+
+	p span {
+		color: #798583;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		text-transform: uppercase;
+		display: block}
+		
+	small {
+		color: #BDBEC2;
+		font-size: 0.7em;}
+
+/* FORM DEFINTION */
+
+	fieldset { border: 0}
+	legend {
+		display: none;}
+
+	label {
+		font-size: 0.8em;
+		display: block; 
+		width: 80px;
+		float: left}
+		
+	input, textarea {
+		border: 1px solid black;
+		background-color: #798583;
+		margin: 5px 0 5px 0;
+	}	
+		
+/* MENU DEFINITIONS */
+		
+	#left li {
+		font-weight: bold;
+		letter-spacing: -1px;
+		font-size: 1em;
+		line-height: 1.4em;}	
+		
+	#left li a {
+		text-decoration: none;
+		}	
+
+	#left li a:hover {
+		color: #afb7b9 }	
+	
+	.navTop {
+		background: #000 url(images/menu-bg.gif) bottom repeat-x;
+		color: #9f9b95;
+		text-transform: uppercase;
+		font-size: 120%;
+		display: block;
+		line-height: 2.2em}
+	
+	a#storynav,
+	a#trailersnav,
+	a#photosnav,
+	a#soundtracknav,
+	a#contactnav,
+	a#updatesnav,
+	a#aboutnav,
+	a#pressnav,
+	a#partnersnav,
+	a#castnav,
+	a#crewnav,
+	a#behindthescenesnav,
+	a#getinvolvednav,
+	a#guestbooknav,
+	a#downloadsnav,
+	a#forumnav,
+	a#linksnav {
+		color: #5b5b5b;
+		background: #000 url(images/arrow1.gif) no-repeat left;
+		padding: 0 0 0 10px;} 
+
+		
+	body#story a#storynav,
+	body#trailers a#trailersnav,
+	body#photos a#photosnav,
+	body#soundtrack a#soundtracknav,
+	body#contact a#contactnav,
+	body#updates a#updatesnav,
+	body#about a#aboutnav,
+	body#press a#pressnav,
+	body#partners a#partnersnav,
+	body#cast a#castnav,
+	body#crew a#crewnav,
+	body#behindthescenes a#behindthescenesnav,
+	body#getinvolved a#getinvolvednav,
+	body#downloads a#downloadsnav,
+	body#forum a#forumnav,
+	body#links #linksnav,
+	body#guestbook #guestbooknav{
+		color: #afb7b9;
+		background: #000 url(images/arrow1.gif) no-repeat left;
+		padding: 0 0 0 10px;} 
+
+/* IMAGE LISTS */
+
+	.image-list li { display: inline; }
+	.image-list li img { margin-right: 10px }
+		
+/* IMAGE CLASSES */
+
+	img.gray-border {
+		border: 1px solid #96948e;}
+	img.image-style1 {
+		margin: 10px 0 10px 0}
+	img.image-style2 {
+		margin: 5px 10px 25px 0}
+	img.image-style3 {
+		margin: 10px 25px 25px 0;
+		float: left}	
+	img.image-style4 {
+		margin: 10px 25px 15px 0;
+		float: left}	
+	img.image-style5 {
+		margin: 15px 15px 0px 0;
+		float: left}
+
+/* MISC CLASSES */
+	
+	.list-style1 {
+		margin: 5px 5px 15px 0;}
+
+	.list-style1 li {
+		background: url(images/bullet1.gif) no-repeat left;
+		padding: 0 0 0 20px;}
+			
+	h2.scaled {
+		font-size: 95%;
+		text-transform:none;}
+
+	div.generic-footer {
+		background: url(images/h5-bg.gif) bottom repeat-x;
+		color: #9f9c5f;
+		line-height: 25px;
+		margin: 0 -15px 0 -15px;
+		padding: 0 15px 0 15px;}
+
+	div.generic-footer2 {
+		background: url(images/h5-bg2.gif) bottom repeat-x;
+		color: #9f9c5f;
+		line-height: 25px;
+		margin: 0 -15px 0 -15px;
+		padding: 0 15px 0 15px;}	
+	
+	div.cast {
+		width: 150px; 
+		height: 265px; 
+		margin: 5px 0 10px 20px; 
+		padding: 10px 10px 10px 20px; 
+		background: #10100C url(images/cast-bg.gif) repeat-y; 
+		float: right}	
+		
+//* SLIMBOX */
+
+	#lbOverlay {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #000;
+		cursor: pointer;
+	}
+	
+	#lbCenter, #lbBottomContainer  {
+		position: absolute;
+		left: 50%;
+		overflow: hidden;}
+
+	#lbCenter {
+		background-color: #1D1D1D;
+		border: 1px solid #96948e;
+		padding: 10px;}
+	
+	#lbBottomContainer {
+		border: 1px solid #96948e;
+		background-color: #000;
+		margin-right: -10px;
+		padding-right: 22px;}
+	
+	.lbLoading {
+		background: #000 url(loading.gif) no-repeat center;}
+	
+	#lbImage {
+		border: 1px solid #96948e;}
+	
+	#lbPrevLink, #lbNextLink {
+		display: block;
+		position: absolute;
+		top: 0;
+		width: 50%;
+		outline: none;
+	}
+	
+	#lbPrevLink {
+		left: 0;
+	}
+	
+	#lbPrevLink:hover {
+		background: transparent url(prevlabel.gif) no-repeat 0% 15%;
+	}
+	
+	#lbNextLink {
+		right: 0;
+	}
+	
+	#lbNextLink:hover {
+		background: transparent url(nextlabel.gif) no-repeat 100% 15%;
+	}
+	
+	#lbBottom {
+		color: #666;
+		line-height: 1.4em;
+		text-align: left;
+		border: none;
+	}
+	
+	#lbCloseLink {
+		display: block;
+		float: right;
+		width: 66px;
+		height: 22px;
+		background: transparent url(closelabel.gif) no-repeat center;
+		margin: 5px 0;
+	}
+	
+	#lbCaption, #lbNumber {
+		margin-right: 71px;
+	}
+	
+	#lbCaption {
+		font-weight: bold;
+	}
+	

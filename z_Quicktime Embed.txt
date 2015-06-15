@@ -1,0 +1,6 @@
+<object CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="645" height="212" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
+<param name="src" value="StacksTrailer.mov?embed">
+<param name="autoplay" value="true">
+<param name="controller" value="true">
+  <embed type="video/quicktime "src="StacksTrailer.mov?embed" width="320" height="240" autoplay="true"controller="true">
+</embed></object>

@@ -1,0 +1,266 @@
+/* CSS for Human Residue
+Created January 2007 
+Alex Goluszko - www.alex-goluszko.com*/
+
+	body,
+	html {
+		margin:0;
+		padding:0;
+		background-color: #000;
+		color: #aea9a1;
+		font-family: "Trebuchet MS", Arial, sans-serif;}
+		
+	body {
+		min-width:1025px;
+		}
+		
+	#wrap {
+		background: #fff url(images/wrap-bg.gif) repeat-y;
+		border: 1px solid black;
+		margin:0 auto;
+		width:1025px;}
+
+	#header {
+		}
+		
+	#left {
+		float:left;
+		width:140px;		
+		padding: 0 0 0 105px;
+		min-height: 100%;
+		height: 100%;}
+		
+	#main {
+		float: right;
+		width: 660px;
+		padding: 0 100px 0 0;}
+
+	#footer {
+		clear: both;
+		height: 76px;
+		background: url(images/footer-bg.gif) bottom center no-repeat;
+		padding: 10px 180px 0 275px}
+
+/* INSIDE DIVs */
+
+	#updates-featured {
+		background: #10100C url(images/updates-bg.gif) bottom repeat-x;
+		float: left;
+		width: 260px;
+		padding: 0px 15px 0 15px}
+
+	#right {
+		width: 350px;
+		float: right;}
+	
+	.generic {
+		background: #2C2C19 url(images/right-bg.gif) bottom repeat-x;
+		padding: 0px 15px 0 15px;
+		margin: 0 0 15px 0;}	
+
+	.generic2 {
+		background: #10100C url(images/updates-bg.gif) bottom repeat-x;
+		padding: 0px 15px 0 15px;
+		margin: 0 0 15px 0;}	
+
+	div.generic hr, div.generic2 hr {display: block; clear: left; margin: -0.66em 0;
+	  visibility: hidden;}
+
+/* ELEMENTS */
+	
+	a { color: #fff;}
+	
+	li, ul {
+		margin: 0;
+		padding: 0}
+	
+	li { list-style: none;}
+	
+	h1 {
+		background: url(images/header-bg.jpg) no-repeat center;
+		text-indent: -9999px;
+		height: 5em;}
+
+	h1 a {
+		display: block}	
+		
+	h2 {
+		color: #bfbd8d;
+		font-size: 1.3em;
+		text-transform: uppercase;
+		margin-bottom: 1em}
+	
+	h3, h5 {
+		margin: 0 -15px 0 -15px;
+		padding: 0 15px 0 15px;}
+			
+	h3 { 
+		background: url(images/h3-bg.gif) top repeat-x;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		vertical-align:middle;
+		line-height: 35px;}
+
+	h4 {
+		font-family: "Book Antiqua", Times New Roman, serif;
+		font-size: 1.1em;
+		color: #8d8b6e;
+		margin-top: 1em;}
+		
+	h4 span {
+		color: #9f9c5f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		display: block}
+
+	h5 {
+		background: url(images/h5-bg.gif) bottom repeat-x;
+		color: #9f9c5f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		text-align: right;
+		vertical-align:middle;
+		line-height: 25px;}
+		
+	h5 a {
+		background: url(images/arrow1.gif) no-repeat left;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #9f9c5f;
+		padding: 0 0 0 10px}
+
+	h5 a:hover {
+		color: #bfbd8d}				
+	h6 {
+		background: url(images/h6-bg.gif) bottom repeat-x;
+		color: #9f9c5f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		font-size: 0.7em;
+		line-height: 1.5em;
+		text-transform: uppercase;
+		margin-left: -5px;
+		padding-left: 5px}
+
+	p {
+		text-align: justify;
+		font-size: 0.8em;}
+		
+
+	p span {
+		color: #9f9c5f;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		text-transform: uppercase;
+		display: block}
+		
+	small {
+		color: #a4a27e;
+		font-size: 0.7em}
+	
+		
+/* MENU DEFINITIONS */
+		
+	#left li {
+		font-weight: bold;
+		letter-spacing: -1px;}	
+		
+	#left li a {
+		text-decoration: none;}	
+		
+	#left li a:hover {
+		color: #bfbd8d }	
+	
+	.navTop {
+		background: #000 url(images/menu-bg.gif) bottom repeat-x;
+		color: #9f9b95;
+		text-transform: uppercase;
+		font-size: 1.1em;
+		display: block;
+		line-height: 2em}
+	
+	a#storynav,
+	a#trailersnav,
+	a#photosnav,
+	a#soundtracknav,
+	a#wallpapersnav,
+	a#updatesnav,
+	a#aboutnav,
+	a#pressnav,
+	a#partnersnav,
+	a#castnav,
+	a#crewnav,
+	a#behindthescenesnav,
+	a#getinvolvednav,
+	a#downloadsnav,
+	a#forumnav,
+	a#linksnav {
+		color: #63624a;
+		background: #000 url(images/arrow1.gif) no-repeat left;
+		line-height: 1em;
+		padding: 0 0 0 10px;} 
+		
+	body#story a#storynav,
+	body#trailers a#trailersnav,
+	body#photos a#photosnav,
+	body#soundtrack a#soundtracknav,
+	body#wallpapers a#wallpapersnav,
+	body#updates a#updatesnav,
+	body#about a#aboutnav,
+	body#press a#pressnav,
+	body#partners a#partnersnav,
+	body#cast a#castnav,
+	body#crew a#crewnav,
+	body#behindthescenes a#behindthescenesnav,
+	body#getinvolved a#getinvolvednav,
+	body#downloads a#downloadsnav,
+	body#forum a#forumnav,
+	body#links #linksnav{
+		color: #bfbd8d;
+		background: #000 url(images/arrow1.gif) no-repeat left;
+		line-height: 1em;
+		padding: 0 0 0 10px;} 
+
+
+
+/* IMAGE LISTS */
+
+	.image-list li { display: inline; }
+	.image-list li img { margin-right: 10px }
+
+		
+/* MISC. CLASSES */
+
+	img.gray-border {
+		border: 1px solid #96948e;}
+
+	img.image-style1 {
+		margin: 10px 0 5px 0}
+		
+	img.image-style2 {
+		margin: 10px 10px 10px 0}
+		
+	img.image-style3 {
+		margin: 0px 25px 30px 0;
+		float: left}	
+
+	img.image-style4 {
+		margin: 0px 25px 15px 0;
+		float: left}	
+	
+	.list-style1 li {
+		font-weight: 0.7em;
+		background: url(images/bullet1.gif) no-repeat left;
+		padding: 0 0 0 20px;}
+			
+	h2.scaled {
+		font-size: 95%;
+		text-transform:none;}
+
+	div.generic-footer {
+		background: url(images/h5-bg.gif) bottom repeat-x;
+		color: #9f9c5f;
+		line-height: 25px;
+		margin: 0 -15px 0 -15px;
+		padding: 0 15px 0 15px;}
+
+	
